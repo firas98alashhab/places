@@ -1,0 +1,132 @@
+/*!
+ * Datepicker for Bootstrap
+ *
+ * Copyright 2012 Stefan Petre
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ */
+ 
+.datepicker {
+  top: 0;
+  left: 0;
+  padding: 1rem !important;
+  margin-top: 0;
+  border: 0 none;
+  border-radius: .3rem;
+  font-size: .9rem;
+  box-shadow: 0px 15px 30px rgba(0,0,0,0.16);
+}
+.datepicker > div {
+  display: none;
+}
+.datepicker table {
+  width: 100%;
+  margin: 0;
+}
+.datepicker thead th {
+  color: #333;
+}
+.datepicker td,
+.datepicker th {
+  color: #999;
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+.datepicker td.day {
+  color: #333;
+}
+.datepicker td.day:hover {
+  cursor: pointer;
+  opacity: .7;
+}
+.datepicker td.day.disabled {
+  color: #bbbbbb;
+}
+.datepicker td.old,
+.datepicker td.new {
+  color: #999;
+}
+.datepicker td.active,
+.datepicker td.active:hover {
+  background: #333;
+  border-radius: .3rem;
+  color: #fff;
+}
+.datepicker td.active:hover,
+.datepicker td.active:hover:hover,
+.datepicker td.active:focus,
+.datepicker td.active:hover:focus,
+.datepicker td.active:active,
+.datepicker td.active:hover:active,
+.datepicker td.active.active,
+.datepicker td.active:hover.active,
+.datepicker td.active.disabled,
+.datepicker td.active:hover.disabled,
+.datepicker td.active[disabled],
+.datepicker td.active:hover[disabled] {
+  background: #333;
+  border-radius: .3rem;
+  color: #fff;
+}
+.datepicker td span {
+  display: block;
+  width: 33%;
+  height: 36px;
+  line-height: 36px;
+  float: left;
+  margin: 0;
+  cursor: pointer;
+  border-radius: .3rem;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+.datepicker td span:hover {
+  color: #333;
+  opacity: .7;
+}
+.datepicker td span.active {
+  color: #ffffff;
+  background-color: #333;
+}
+.datepicker td span.active:hover,
+.datepicker td span.active:focus,
+.datepicker td span.active:active,
+.datepicker td span.active.active,
+.datepicker td span.active.disabled,
+.datepicker td span.active[disabled] {
+  color: #ffffff;
+  background-color: #333;
+}
+.datepicker td span.old {
+  color: #999;
+}
+.datepicker th.switch {
+  width: 145px;
+}
+.datepicker th.next,
+.datepicker th.prev {
+  font-size: 21px;
+}
+.datepicker thead tr:first-child th {
+  cursor: pointer;
+}
+.datepicker thead tr:first-child th:hover {
+  color: #333;
+  opacity: .7;
+}
+.input-append.date .add-on i,
+.input-prepend.date .add-on i {
+  display: block;
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+}

@@ -1,0 +1,225 @@
+.wp-block-resideo-plugin-services {
+    background-color: #f5f7fa;
+    padding: 20px;
+    border: 1px dotted #888;
+}
+.wp-block-resideo-plugin-services .services-icon-wrapper {
+    width: 100%;
+    background-color: #f5f5f5;
+    border: 1px solid #e1e1e1;
+    position: relative;
+    text-align: center;
+    padding: 10px;
+}
+.wp-block-resideo-plugin-services .services-icon {
+    font-size: 48px;
+    line-height: 60px;
+    display: block;
+    margin-bottom: 10px;
+}
+.pxp-services-icons-modal .components-modal__header {
+    margin-bottom: 0;
+}
+.pxp-services-icons-modal .icons-search-field input {
+    margin-bottom: 0;
+}
+.pxp-services-icons-modal .services-icons-modal-search {
+    box-sizing: border-box;
+    border-bottom: 1px solid #e2e4e7;
+    padding: 16px;
+    background: #fff;
+    height: 64px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 56px;
+    z-index: 10;
+    margin: 0 -16px 16px;
+}
+.pxp-services-icons-modal .icons-search-field {
+    position: relative;
+}
+.pxp-services-icons-modal .icons-search-field span {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 8px;
+}
+.pxp-services-icons-modal .icons-search-field input {
+    padding-left: 24px !important;
+}
+.pxp-services-icons-modal .services-icons-item {
+    font-size: 11px;
+    line-height: 16px;
+    padding: 6px 8px;
+    border: 1px solid #e2e4e7;
+    cursor: pointer;
+    border-radius: 4px;
+    color: #444;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+.pxp-services-icons-modal .services-icons-item:hover {
+    border: 1px solid #00a0d2;
+}
+.pxp-services-icons-modal .services-icons-item.is-selected {
+    background-color: #00a0d2;
+    border: 1px solid #00a0d2;
+    color: #fff;
+}
+.pxp-services-icons-modal .services-icons-item span {
+    font-size: 16px;
+    line-height: 16px;
+    color: #333;
+    width: 22px;
+    text-align: center;
+}
+.pxp-services-icons-modal .services-icons-item.is-selected span {
+    color: #fff;
+}
+.pxp-services-icons-modal .is-icon {
+    margin-bottom: 10px;
+}
+.wp-block-resideo-plugin-services .services-placeholder-img {
+    background: url(../images/services-module-1.png) no-repeat scroll center center;
+    background-size: contain;
+    height: 156px;
+}
+.wp-block-resideo-plugin-services .services-placeholder-header,
+.wp-block-resideo-plugin-services .services-placeholder-subheader {
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    margin-top: 0;
+}
+.wp-block-resideo-plugin-services .services-placeholder-header {
+    margin-bottom: 0;
+}
+.wp-block-resideo-plugin-services .components-panel__header h2 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 1.1em;
+}
+.wp-block-resideo-plugin-services .services-list-header {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.pxp-services-icons-modal.components-modal__frame {
+    min-width: 60%;
+}
+.wp-block-resideo-plugin-services .pxp-block-services-bg-image-btn {
+    width: 100%;
+    height: 125px;
+    background: #fff;
+    border: 1px solid #e2e4e7;
+    text-align: center;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.wp-block-resideo-plugin-services .services-list-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.wp-block-resideo-plugin-services .services-list-container ul li {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 13px;
+    background: #fff;
+    border: 1px solid #e2e4e7;
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.wp-block-resideo-plugin-services .services-list-container ul li:last-child {
+    margin-bottom: 10px;
+}
+.wp-block-resideo-plugin-services .services-list-container ul li a {
+    cursor: pointer;
+    display: block;
+    float: right;
+    margin-top: 18px;
+}
+.wp-block-resideo-plugin-services .services-list-new-form {
+    display: none;
+}
+.wp-block-resideo-plugin-services .services-list-new-header {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.services-list-new-image-placeholder {
+    width: 100%;
+    height: 125px;
+    background: #fff;
+    border: 1px solid #e2e4e7;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: 50% 30%;
+    position: relative;
+}
+.services-list-new-image-placeholder > span {
+    font-size: 50px;
+    margin-top: 20px;
+}
+.services-list-new-image-btn,
+.services-list-new-icon-btn {
+    position: absolute;
+    bottom: 2px;
+    width: calc(50% - 3px);
+    display: block;
+}
+.services-list-new-image-btn {
+    left: 2px;
+}
+.services-list-new-icon-btn {
+    right: 2px;
+}
+.services-list-new-form .component-color-indicator {
+    vertical-align: text-bottom;
+}
+.services-list-new-ok,
+.services-list-new-cancel {
+    margin-top: 10px;
+    margin-right: 5px;
+}
+.wp-block-resideo-plugin-services .services-list-item-img {
+    width: 100%;
+    height: 60px;
+    border: 1px solid #e2e4e7;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: 50% 50%;
+}
+.wp-block-resideo-plugin-services .services-list-item-icon {
+    width: 100%;
+    height: 60px;
+    border: 1px solid #e2e4e7;
+    text-align: center;
+    font-size: 38px;
+    line-height: 38px;
+    padding-top: 11px;
+}
+.wp-block-resideo-plugin-services .services-list-item-title {
+    font-weight: 600;
+    margin-top: 7px;
+}
+.wp-block-resideo-plugin-services .services-list-item-text {
+    font-size: 12px;
+}
+.wp-block-resideo-plugin-services .services-list-container ul li a {
+    cursor: pointer;
+    display: block;
+    float: right;
+    margin-top: 18px;
+}
+@media screen and (max-width: 991px) {
+    .pxp-services-icons-modal.components-modal__frame {
+        min-width: 80%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .pxp-services-icons-modal.components-modal__frame {
+        min-width: calc(100% - 16px - 16px);
+    }
+}

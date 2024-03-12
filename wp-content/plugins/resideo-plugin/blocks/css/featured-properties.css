@@ -1,0 +1,19 @@
+.wp-block-resideo-plugin-featured-properties {
+    background-color: #f5f7fa;
+    padding: 20px;
+    border: 1px dotted #888;
+}
+.wp-block-resideo-plugin-featured-properties .featured-properties-placeholder-img {
+    background: url(../images/featured-properties-module.png) no-repeat scroll center center;
+    background-size: contain;
+    height: 156px;
+}
+.wp-block-resideo-plugin-featured-properties .featured-properties-placeholder-header,
+.wp-block-resideo-plugin-featured-properties .featured-properties-placeholder-subheader {
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    margin-top: 0;
+}
+.wp-block-resideo-plugin-featured-properties .featured-properties-placeholder-header {
+    margin-bottom: 0;
+}

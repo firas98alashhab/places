@@ -1,0 +1,19 @@
+.wp-block-resideo-plugin-featured-agents {
+    background-color: #f5f7fa;
+    padding: 20px;
+    border: 1px dotted #888;
+}
+.wp-block-resideo-plugin-featured-agents .featured-agents-placeholder-img {
+    background: url(../images/featured-agents-module-1.png) no-repeat scroll center center;
+    background-size: contain;
+    height: 156px;
+}
+.wp-block-resideo-plugin-featured-agents .featured-agents-placeholder-header,
+.wp-block-resideo-plugin-featured-agents .featured-agents-placeholder-subheader {
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    margin-top: 0;
+}
+.wp-block-resideo-plugin-featured-agents .featured-agents-placeholder-header {
+    margin-bottom: 0;
+}
