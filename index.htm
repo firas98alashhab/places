@@ -9,6 +9,12 @@
     />
     <title>Places</title>
     <meta name="robots" content="noindex,nofollow" />
+    <link
+      id="rtl-link"
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/vendors/bootstrap.css"
+    />
     <link rel="dns-prefetch" href="//maps.googleapis.com" />
     <link rel="dns-prefetch" href="//fonts.googleapis.com" />
     <link rel="dns-prefetch" href="//s.w.org" />
@@ -1142,6 +1148,7 @@
             </div>
             <div class="pxp-carousel-ticker-total"></div>
           </div>
+          #35005d
         </div>
       </div>
 
@@ -1149,28 +1156,30 @@
         <div class="">
           <div class="">
             <div class="pxp-services-h pt-100 pb-100">
-              <div style="max-width: 1200px; margin: 0 auto">
-                <h2 style="margin-bottom: -20px" class="pxp-section-h2">
-                  A new vision in the real estate world.
-                </h2>
-              </div>
-              <div
-                class="virtualTourWrapper"
-                style="max-width: 1200px; margin: 0 auto"
-              >
-                <iframe
-                  class="virtualTour"
-                  src="https://firas98alashhab.github.io/spaces-virtual-tour/"
-                  frameborder="0"
-                  style="height: 800px"
-                ></iframe>
+              <div class="container virtual-tour">
+                <div style="max-width: 1200px; margin: 0 auto">
+                  <h2 style="margin-bottom: -20px" class="pxp-section-h3">
+                    A new vision in the real estate world.
+                  </h2>
+                </div>
+                <div
+                  class="virtualTourWrapper"
+                  style="max-width: 1200px; margin: 0 auto"
+                >
+                  <iframe
+                    class="virtualTour"
+                    src="https://firas98alashhab.github.io/spaces-virtual-tour/"
+                    frameborder="0"
+                  ></iframe>
+                </div>
               </div>
 
               <style>
                 .virtualTourWrapper {
                   position: relative;
                   width: 100%;
-                  padding-bottom: 56.25%;
+                  padding-bottom: 56.25% !important;
+                  margin-bottom: 200px !important;
                 }
 
                 .virtualTour {
@@ -1571,9 +1580,9 @@
                 ><img src="assets/img/places-logo-footer-eng.svg"
               /></a>
               <div class="pxp-side-address mt-2">
-                <p>90 Fifth Avenue, 3rd Floor</p>
-                <p>San Francisco, CA 1980</p>
-                <p>(123) 456-7890</p>
+                <p>6559 At Takhassusi.</p>
+                <p>AL Muhammadiyah Dist.</p>
+                <p>Riyadh, Kingdom of Saudi Arabia</p>
               </div>
             </div>
             <div
@@ -2152,5 +2161,6 @@
       src="wp-content/plugins/dsidxpress/js/autocomplete-mls-number-1.js?ver=3.9.0"
       id="dsidx-autocomplete-mls-number-js"
     ></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
