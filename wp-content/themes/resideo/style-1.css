@@ -3249,7 +3249,7 @@ code {
 }
 .pxp-testim-1-item-avatar {
   width: 90px;
-  height: 90px;
+  height: 60px;
   margin: 30px auto 10px auto;
   border-radius: 50%;
 }
@@ -7125,7 +7125,7 @@ ul.pxp-comment-ops li:last-child a {
 .pxp-dark-mode .pxp-agent-contact-modal-btn,
 .pxp-dark-mode .pxp-user-modal-btn,
 .pxp-dark-mode .pxp-properties-modal-btn {
-  background-color: #000;
+  background-color: #4f008c;
   border: 1px solid #000;
 }
 .pxp-agent-contact-modal-btn:hover,
