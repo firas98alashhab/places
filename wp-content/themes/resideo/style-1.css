@@ -10137,6 +10137,9 @@ fieldset[disabled] .checkbox.custom-checkbox input:checked + span {
   }
 }
 @media screen and (max-width: 575px) {
+  .virtualTour {
+    height: 300px !important;
+  }
   .pxp-header,
   .pxp-header.pxp-is-sticky {
     padding: 15px 0;
@@ -10364,4 +10367,48 @@ fieldset[disabled] .checkbox.custom-checkbox input:checked + span {
     text-align: left;
     margin-left: 26px;
   }
+}
+
+.card-container {
+  display: flex;
+  background-color: lightgray;
+}
+
+.left-side {
+  flex: 1;
+  padding: 0 60px 0 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.left-side h4 {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.left-side h5 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.left-side a {
+  font-size: 21px;
+}
+
+.right-side {
+  flex: 1;
+}
+
+.right-side img {
+  width: 100%;
+}
+
+.containerr {
+  max-width: 1460px;
+  margin: 120px auto;
+}
+
+.to-style {
+  margin: 100px auto;
 }
